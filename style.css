@@ -1,0 +1,59 @@
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Inter', sans-serif; }
+.container { max-width: 1180px; margin: 0 auto; width: 95%; display: flex; align-items: center; justify-content: space-between; }
+
+/* LOGO SECTION WITH BLUE CONTAINER */
+.logo-box { display: flex; align-items: center; gap: 12px; }
+
+.icon-container {
+    background-color: #0D6EFD; /* Blue Background */
+    width: 38.26px;
+    height: 40.17px;
+    border-radius: 8px; /* Rounded Corners */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-icon {
+    width: 17.45px;
+    height: 20.64px;
+    object-fit: contain;
+    /* Agar icon black hai toh niche wali line enable karein taake woh white dikhe */
+    /* filter: brightness(0) invert(1); */
+}
+
+.logo-text { height: 24px; width: auto; }
+
+/* Header Styling */
+.header-main { padding: 20px 0; background: #fff; border-bottom: 1px solid #E3E8EE; }
+.search-bar { display: flex; width: 665px; height: 40px; border: 2px solid #0D6EFD; border-radius: 8px; overflow: hidden; }
+.search-bar input { flex: 1; border: none; padding-left: 15px; outline: none; }
+.v-line { width: 1px; background: #0D6EFD; margin: 8px 0; }
+.search-bar select { border: none; padding: 0 10px; background: #fff; outline: none; }
+.search-bar button { background: #0D6EFD; color: #fff; border: none; padding: 0 20px; font-weight: 600; cursor: pointer; }
+
+.user-icons { display: flex; gap: 20px; color: #8B96A5; text-align: center; }
+.icon-group i { display: block; font-size: 20px; margin-bottom: 4px; }
+.icon-group span { font-size: 12px; }
+
+/* Navigation */
+.nav-bar { background: #fff; border-bottom: 1px solid #E3E8EE; padding: 12px 0; }
+.nav-links { display: flex; list-style: none; gap: 25px; font-weight: 500; font-size: 16px; color: #1C1C1C; }
+.nav-links i { margin-right: 5px; }
+.nav-right { display: flex; gap: 25px; font-weight: 500; }
+
+/* Footer */
+.footer { background: #fff; border-top: 1px solid #E3E8EE; margin-top: 40px; padding-top: 40px; }
+.footer-grid { display: grid; grid-template-columns: 2.5fr 1fr 1fr 1fr 1fr 1.2fr; gap: 20px; padding-bottom: 40px; }
+.footer-brand p { color: #505050; font-size: 14px; margin: 15px 0; max-width: 250px; line-height: 22px; }
+.social-links { display: flex; gap: 15px; }
+.social-links i { font-size: 22px; color: #BDC4CD; cursor: pointer; }
+
+.footer-col h4 { margin-bottom: 15px; font-size: 16px; color: #1C1C1C; }
+.footer-col ul { list-style: none; color: #8B96A5; font-size: 14px; line-height: 2; }
+.app-badges img { width: 120px; margin-bottom: 8px; display: block; }
+
+.footer-bottom { background: #EFF2F4; padding: 20px 0; border-top: 1px solid #E3E8EE; }
+.footer-lang { display: flex; align-items: center; gap: 8px; font-size: 14px; }
+
+.main-content { min-height: 400px; display: flex; align-items: center; justify-content: center; background: #F7FAFC; color: #BDC4CD; }
