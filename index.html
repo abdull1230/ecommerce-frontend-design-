@@ -3,13 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ecommerce - Week 1 Fixed</title>
+    <title>Ecommerce - Week 2 Fixed</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
     <header class="header">
         <div class="header-main">
             <div class="container">
@@ -19,14 +18,12 @@
                     </div>
                     <img src="assets/Brand.png" alt="Brand" class="logo-text">
                 </div>
-
                 <div class="search-bar">
                     <input type="text" placeholder="Search">
                     <div class="v-line"></div>
                     <select><option>All category</option></select>
                     <button>Search</button>
                 </div>
-
                 <div class="user-icons">
                     <div class="icon-group"><i class="fa-solid fa-user"></i><span>Profile</span></div>
                     <div class="icon-group"><i class="fa-solid fa-message"></i><span>Message</span></div>
@@ -35,7 +32,6 @@
                 </div>
             </div>
         </div>
-
         <nav class="nav-bar">
             <div class="container">
                 <ul class="nav-links">
@@ -54,51 +50,98 @@
         </nav>
     </header>
 
-    <main class="main-content">
-        <h2>Main Content Area (Week 2)</h2>
+    <main class="main-content-section">
+        <div class="container-column">
+            <section class="hero-layout">
+                <aside class="sidebar">
+                    <ul>
+                        <li class="active">Automobiles</li>
+                        <li>Clothes and wear</li>
+                        <li>Home interiors</li>
+                        <li>Computer and tech</li>
+                        <li>Tools, equipments</li>
+                        <li>Sports and outdoor</li>
+                        <li>Animal and pets</li>
+                        <li>Machinery tools</li>
+                        <li>More category</li>
+                    </ul>
+                </aside>
+
+                <div class="hero-banner">
+                    <div class="banner-text">
+                        <p>Latest trending</p>
+                        <h1>Electronic items</h1>
+                        <button class="learn-more-btn">Learn more</button>
+                    </div>
+                </div>
+
+                <div class="hero-widgets">
+                    <div class="user-card-widget">
+                        <div class="u-info">
+                            <div class="u-img-box">
+                                <img src="assets/profilelogo.png" alt="user">
+                            </div>
+                            <span class="u-text">Hi, user let's get started</span>
+                        </div>
+                        <div class="action-btns">
+                            <button class="btn-primary-blue">Join now</button>
+                            <button class="btn-white-outline">Log in</button>
+                        </div>
+                    </div>
+                    <div class="promo-box orange">
+                        <div class="promo-content">Get US $10 off with a new supplier</div>
+                    </div>
+                    <div class="promo-box teal">
+                        <div class="promo-content">Send quotes with supplier preferences</div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="recommended-section">
+                <h3 class="grid-title">Recommended items</h3>
+                <div class="product-grid-5">
+                    <div class="p-card"><div class="p-img"><img src="assets/Bitmap.png" alt="Polo"></div><span class="price">$10.30</span><p class="name">T-shirts with multiple colors, for men</p></div>
+                    <div class="p-card"><div class="p-img"><img src="assets/short.png" alt="Shorts"></div><span class="price">$10.30</span><p class="name">Jeans shorts for men blue color</p></div>
+                    <div class="p-card"><div class="p-img"><img src="assets/image 30.png" alt="Coat"></div><span class="price">$12.50</span><p class="name">Brown winter coat medium size</p></div>
+                    <div class="p-card"><div class="p-img"><img src="assets/image 24.png" alt="Bag"></div><span class="price">$34.00</span><p class="name">Jeans bag for travel for men</p></div>
+                    <div class="p-card"><div class="p-img"><img src="assets/image 26.png" alt="Wallet"></div><span class="price">$99.00</span><p class="name">Leather wallet</p></div>
+                    <div class="p-card"><div class="p-img"><img src="assets/short.png" alt="Camera"></div><span class="price">$9.99</span><p class="name">Canon camera black, 100x zoom</p></div>
+                    <div class="p-card"><div class="p-img"><img src="assets/image 86.png" alt="Headset"></div><span class="price">$8.99</span><p class="name">Headset for gaming with mic</p></div>
+                    <div class="p-card"><div class="p-img"><img src="assets/image 26.png" alt="Smartwatch"></div><span class="price">$10.30</span><p class="name">Smartwatch silver color modern</p></div>
+                    <div class="p-card"><div class="p-img"><img src="assets/image 90.png" alt="Pot"></div><span class="price">$10.30</span><p class="name">Blue wallet for men leather metarfial</p></div>
+                    <div class="p-card"><div class="p-img"><img src="assets/image 85.png" alt="Kettle"></div><span class="price">$80.95</span><p class="name">Jeans bag for travel for men</p></div>
+                </div>
+                <div class="pagination-wrapper">
+                    <div class="pg-container">
+                        <button class="pg-item">1</button>
+                        <button class="pg-item">2</button>
+                        <button class="pg-item">3</button>
+                        <button class="pg-item pg-next">Next <i class="fa-solid fa-chevron-right"></i></button>
+                    </div>
+                </div>
+            </section>
+        </div>
     </main>
 
     <footer class="footer">
         <div class="container footer-grid">
             <div class="footer-brand">
                 <div class="logo-box">
-                    <div class="icon-container">
-                        <img src="assets/logo.png" alt="Icon" class="logo-icon">
-                    </div>
+                    <div class="icon-container"><img src="assets/logo.png" alt="Icon" class="logo-icon"></div>
                     <img src="assets/Brand.png" alt="Brand" class="logo-text">
                 </div>
                 <p>Best information about the company goes here but now lorem ipsum is</p>
                 <div class="social-links">
-                    <i class="fa-brands fa-facebook"></i>
-                    <i class="fa-brands fa-twitter"></i>
-                    <i class="fa-brands fa-linkedin"></i>
-                    <i class="fa-brands fa-instagram"></i>
-                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-facebook"></i><i class="fa-brands fa-twitter"></i><i class="fa-brands fa-linkedin"></i><i class="fa-brands fa-instagram"></i><i class="fa-brands fa-youtube"></i>
                 </div>
             </div>
             <div class="footer-col"><h4>About</h4><ul><li>About Us</li><li>Find store</li><li>Categories</li><li>Blogs</li></ul></div>
             <div class="footer-col"><h4>Partnership</h4><ul><li>About Us</li><li>Find store</li><li>Categories</li><li>Blogs</li></ul></div>
             <div class="footer-col"><h4>Information</h4><ul><li>Help Center</li><li>Refund</li><li>Shipping</li><li>Contact us</li></ul></div>
             <div class="footer-col"><h4>For users</h4><ul><li>Login</li><li>Register</li><li>Settings</li><li>My Orders</li></ul></div>
-            <div class="footer-col">
-                <h4>Get app</h4>
-                <div class="app-badges">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Play">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg" alt="App">
-                </div>
-            </div>
+            <div class="footer-col"><h4>Get app</h4><div class="app-badges"><img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Play"><img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg" alt="App"></div></div>
         </div>
-        <div class="footer-bottom">
-            <div class="container">
-                <p>© 2023 Ecommerce.</p>
-                <div class="footer-lang">
-                    <img src="https://flagcdn.com/w20/us.png" alt="US">
-                    <span>English</span>
-                    <i class="fa-solid fa-chevron-up"></i>
-                </div>
-            </div>
-        </div>
+        <div class="footer-bottom"><div class="container"><p>© 2023 Ecommerce.</p><div class="footer-lang"><img src="https://flagcdn.com/w20/us.png" alt="US"><span>English</span><i class="fa-solid fa-chevron-up"></i></div></div></div>
     </footer>
-
 </body>
 </html>
