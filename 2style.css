@@ -1,0 +1,759 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Header Sections */
+.header-main {
+    padding: 20px 0;
+    background: #fff;
+    border-bottom: 1px solid #E3E8EE;
+}
+
+.logo-box {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.icon-container {
+    background-color: #0D6EFD;
+    width: 38px;
+    height: 40px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-icon {
+    width: 17px;
+    height: 20px;
+    object-fit: contain;
+}
+
+.logo-text {
+    height: 24px;
+    width: auto;
+}
+
+.search-bar {
+    display: flex;
+    width: 665px;
+    height: 40px;
+    border: 2px solid #0D6EFD;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.search-bar input {
+    flex: 1;
+    border: none;
+    padding-left: 15px;
+    outline: none;
+}
+
+.v-line {
+    width: 1px;
+    background: #0D6EFD;
+    margin: 8px 0;
+}
+
+.search-bar select {
+    border: none;
+    padding: 0 10px;
+    background: #fff;
+    outline: none;
+}
+
+.search-bar button {
+    background: #0D6EFD;
+    color: #fff;
+    border: none;
+    padding: 0 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.user-icons {
+    display: flex;
+    gap: 20px;
+    color: #8B96A5;
+    text-align: center;
+}
+
+.icon-group i {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 4px;
+}
+
+.icon-group span {
+    font-size: 12px;
+}
+
+.nav-bar {
+    background: #fff;
+    border-bottom: 1px solid #E3E8EE;
+    padding: 12px 0;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #1C1C1C;
+}
+
+.nav-right {
+    display: flex;
+    gap: 25px;
+    font-weight: 500;
+}
+
+/* Breadcrumbs Styling */
+/* General Setup */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #F7F8F9;
+    margin: 0;
+}
+
+.wrapper {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Breadcrumb */
+.breadcrumb-container {
+    padding: 20px 0;
+    color: #8B96A5;
+    font-size: 16px;
+}
+
+.breadcrumb-container i {
+    font-size: 12px;
+    margin: 0 8px;
+}
+
+.active {
+    color: #505050;
+    font-weight: 500;
+}
+
+/* Layout */
+.main-content {
+    display: flex;
+    gap: 28px;
+}
+
+/* Sidebar Components */
+/* Sidebar Container */
+.sidebar-aside {
+    width: 240px;
+    height: 1448px;
+    background: #FFF;
+}
+
+.filter-box {
+    border-top: 1px solid #DEE2E7;
+    padding: 16px 0;
+}
+
+.border-none {
+    border-bottom: none;
+}
+
+.box-header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 16px;
+    color: #1C1C1C;
+    margin-bottom: 12px;
+}
+
+/* Links & Text */
+.link-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.link-list li {
+    padding: 8px 0;
+    color: #505050;
+    cursor: pointer;
+}
+
+.blue-see-all {
+    color: #0D6EFD;
+    font-size: 14px;
+    margin-top: 8px;
+    display: block;
+    cursor: pointer;
+}
+
+/* Checkbox & Radio Styling */
+.checkbox-group label,
+.radio-group label,
+.rating-filter-list label {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 10px;
+    color: #505050;
+    cursor: pointer;
+}
+
+/* Price Range Slider (The Blue Bar) */
+.slider-track-visual {
+    height: 4px;
+    background: #AFD0FF;
+    /* Light blue background */
+    position: relative;
+    margin: 20px 10px 25px 10px;
+    border-radius: 2px;
+}
+
+.track-line-blue {
+    position: absolute;
+    left: 20%;
+    right: 30%;
+    height: 100%;
+    background: #0D6EFD;
+    /* Dark blue active line */
+}
+
+.handle {
+    width: 18px;
+    height: 18px;
+    background: #FFF;
+    border: 2px solid #0D6EFD;
+    border-radius: 50%;
+    position: absolute;
+    top: -7px;
+}
+
+.h-left {
+    left: 20%;
+}
+
+.h-right {
+    right: 30%;
+}
+
+/* Inputs and Button */
+.input-fields-flex {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+.inp-unit label {
+    display: block;
+    font-size: 13px;
+    color: #505050;
+    margin-bottom: 5px;
+}
+
+.inp-unit input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #DEE2E7;
+    border-radius: 6px;
+}
+
+.apply-button {
+    width: 100%;
+    background: #FFF;
+    border: 1px solid #DEE2E7;
+    color: #0D6EFD;
+    padding: 10px;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0px 1px 2px rgba(56, 56, 56, 0.08);
+}
+
+/* Ratings Star Colors */
+.stars-row {
+    font-size: 16px;
+    margin-left: 8px;
+}
+
+.gold {
+    color: #FF9017;
+}
+
+/* Filled star */
+.light-grey {
+    color: #DEE2E7;
+}
+
+/* Empty star jaisa Figma mein hai */
+/* Layout Fix taake Sidebar aur Content Bar barabar mein aayein */
+.main-content-right {
+    flex: 1;
+    /* Ye bachi hui poori jagah le lega */
+}
+
+/* Content Top Bar (920x62 Exact) */
+.content-top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFFFFF;
+    border: 1px solid #DEE2E7;
+    border-radius: 6px;
+    padding: 10px 16px;
+    margin-bottom: 10px;
+}
+
+.stats-left {
+    font-size: 16px;
+    color: #1C1C1C;
+}
+
+.bold-text {
+    font-weight: 600;
+}
+
+.controls-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.verified-label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Select Dropdown */
+.select-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.select-box select {
+    appearance: none;
+    padding: 8px 30px 8px 12px;
+    border: 1px solid #DEE2E7;
+    border-radius: 6px;
+    background: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.select-box i {
+    position: absolute;
+    right: 10px;
+    font-size: 12px;
+    color: #8B96A5;
+}
+
+/* Grid & List Buttons */
+.view-buttons {
+    display: flex;
+    border: 1px solid #DEE2E7;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.btn-view {
+    padding: 8px 12px;
+    background: #fff;
+    border: none;
+    border-right: 1px solid #DEE2E7;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.btn-view:last-child {
+    border-right: none;
+}
+
+.btn-view.active {
+    background: #EFF2F4;
+}
+
+/* Product List Container */
+.product-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Individual Card Styling */
+.product-card {
+    width: 920px;
+    height: 230px;
+    background: #FFF;
+    border: 1px solid #DEE2E7;
+    border-radius: 6px;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.product-img {
+    width: 210px;
+    height: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-img img {
+    width: 184.8px;
+    height: 184.8px;
+    /* max-width: 100%;
+    max-height: 100%; */
+    object-fit: contain;
+}
+
+.product-info {
+    flex: 1;
+}
+
+.info-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.info-header h3 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #1C1C1C;
+    margin-bottom: 8px;
+}
+
+.wishlist-btn {
+    background: none;
+    border: 1px solid #DEE2E7;
+    color: #0D6EFD;
+    width: 40px;
+    height: 40px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    box-shadow: 0px 1px 2px rgba(56, 56, 56, 0.08);
+}
+
+/* Price & Ratings */
+.price-row {
+    margin-bottom: 8px;
+}
+
+.curr-price {
+    font-size: 20px;
+    font-weight: 600;
+    color: #1C1C1C;
+}
+
+.old-price {
+    font-size: 16px;
+    color: #8B96A5;
+    text-decoration: line-through;
+    margin-left: 8px;
+}
+
+.rating-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    color: #8B96A5;
+    margin-bottom: 12px;
+}
+
+.rating-num {
+    color: #FF9017;
+    font-weight: 500;
+}
+
+.shipping {
+    color: #00B517;
+}
+
+/* Green color from Figma */
+.dot {
+    font-size: 10px;
+}
+
+/* Text Content */
+.description {
+    font-size: 16px;
+    color: #505050;
+    line-height: 24px;
+    margin-bottom: 12px;
+}
+
+.view-details {
+    color: #0D6EFD;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/* Pagination Styling */
+
+.pagination-section {
+
+    display: flex;
+
+    justify-content: flex-end;
+
+    align-items: center;
+
+    gap: 12px;
+
+    margin-top: 20px;
+
+    padding-bottom: 30px;
+
+}
+
+
+
+.show-dropdown {
+
+    position: relative;
+
+    display: flex;
+
+    align-items: center;
+
+}
+
+
+
+.show-dropdown select {
+
+    appearance: none;
+
+    padding: 10px 35px 10px 12px;
+
+    border: 1px solid #DEE2E7;
+
+    border-radius: 6px;
+
+    background: #fff;
+
+    font-size: 16px;
+
+}
+
+
+
+.show-dropdown i {
+
+    position: absolute;
+
+    right: 12px;
+
+    font-size: 12px;
+
+    color: #8B96A5;
+
+}
+
+
+
+.page-numbers {
+
+    display: flex;
+
+    border: 1px solid #DEE2E7;
+
+    border-radius: 6px;
+
+    overflow: hidden;
+
+}
+
+
+
+.page-btn {
+
+    padding: 10px 15px;
+
+    background: #fff;
+
+    border: none;
+
+    border-right: 1px solid #DEE2E7;
+
+    cursor: pointer;
+
+    font-size: 16px;
+
+    color: #1C1C1C;
+
+}
+
+
+
+.page-btn:last-child {
+    border-right: none;
+}
+
+.page-btn.active {
+    background: #EFF2F4;
+    color: #8B96A5;
+}
+
+.page-btn:hover:not(.active) {
+    background: #f8f9fa;
+}
+
+/* Newsletter Section Styling */
+.newsletter-section {
+    /* width:1440px;
+    height:190px; */
+    background-color: #F7FAFC;
+    /* Halka grey background jaisa Figma mein hai */
+    padding: 60px 0;
+    text-align: center;
+    border-top: 1px solid #E3E8EE;
+    margin-top: 20px;
+}
+
+.newsletter-content h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1C1C1C;
+    margin-bottom: 5px;
+}
+
+.newsletter-content p {
+    font-size: 16px;
+    color: #606060;
+    margin-bottom: 25px;
+}
+
+.subscribe-form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.input-group {
+    position: relative;
+    width: 300px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px 10px 10px 35px;
+    /* Left side se jagah icon ke liye */
+    border: 1px solid #DEE2E7;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.email-icon {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #8B96A5;
+}
+
+.subscribe-form button {
+    background-color: #0D6EFD;
+    /* Bright blue color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.subscribe-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer Styling */
+.footer {
+    background: #fff;
+    border-top: 1px solid #E3E8EE;
+    margin-top: 40px;
+    padding-top: 40px;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 2.5fr 1fr 1fr 1fr 1fr 1.2fr;
+    gap: 20px;
+    padding-bottom: 40px;
+}
+
+.footer-brand p {
+    color: #505050;
+    font-size: 14px;
+    margin: 15px 0;
+    max-width: 250px;
+    line-height: 22px;
+}
+
+.social-links {
+    display: flex;
+    gap: 15px;
+    color: #BDC4CD;
+    font-size: 22px;
+}
+
+.footer-col h4 {
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #1C1C1C;
+}
+
+.footer-col ul {
+    list-style: none;
+    color: #8B96A5;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.app-badges img {
+    width: 120px;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.footer-bottom {
+    background: #EFF2F4;
+    padding: 20px 0;
+    border-top: 1px solid #E3E8EE;
+}
+
+.footer-lang {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+}
